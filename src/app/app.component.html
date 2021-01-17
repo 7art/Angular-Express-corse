@@ -372,14 +372,14 @@
   <h2>Users List App</h2>
   <p>What do you want to do next with your app?</p>
 
-  <mat-selection-list #shoes>
-    <mat-list-option *ngFor="let shoe of typesOfShoes">
-      {{shoe}}
+  <mat-selection-list #developers>
+    <mat-list-option *ngFor="let developer of veryPowerfulDevelopers">
+      {{developer}}
     </mat-list-option>
   </mat-selection-list>
 
   <p>
-    Options selected: {{shoes.selectedOptions.selected.length}}
+    Options selected: {{developers.selectedOptions.selected.length}}
   </p>
 
 </div>
