@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Приложение';
+  title = 'Список пользователей';
   veryPowerfulDevelopers: string[] = ['Брендан Эйх', 'Адам Абронс', 'Джордан Валке', 'Эван Ю'];
 }

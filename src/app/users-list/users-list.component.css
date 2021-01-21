@@ -11,3 +11,11 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+
+.new-user-item {
+  width: 150px;
+}
+.btn {
+  height: 50px;
+  margin: 0.25em 0;
+}
